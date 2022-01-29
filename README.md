@@ -1,3 +1,7 @@
+![](https://img.shields.io/github/languages/code-size/lufred/goworker)
+![](https://img.shields.io/github/v/tag/lufred/goworker)
+![](https://img.shields.io/github/license/lufred/goworker)
+
 # worker
 worker是一个后台常驻服务库，就像创建一个操作系统服务。  
 
