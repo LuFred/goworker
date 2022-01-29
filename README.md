@@ -21,7 +21,7 @@ worker是一个后台常驻服务库，就像创建一个操作系统服务。
 * 自定义重试策略
 * 自定义logger配置
 
-# [Example](https://github.com/LuFred/goworker/tree/master/examples)
+# [Example](https://github.com/LuFred/goworker/tree/main/examples)
 
 # Getting Started
 
