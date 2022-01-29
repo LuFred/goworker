@@ -1,4 +1,4 @@
-package workers
+package goworker
 
 import "github.com/google/uuid"
 
