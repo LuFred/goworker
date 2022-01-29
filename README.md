@@ -48,16 +48,16 @@ package main
 import (
 	"context"
 	"fmt"
-
 	"github.com/lufred/goworker"
+	"github.com/lufred/goworker/config"
 )
 
 func main() {
-	w := workers.NewWorker(
+	w := goworker.NewWorker(
 		context.Background(),
-		workers.DefaultWorkerConfig(),
+		config.DefaultWorkerConfig(),
 		&MyWorker{})
-	
+
 	if err := w.Run(); err != nil {
 		fmt.Println(err)
 		return
